@@ -33,5 +33,5 @@ Array.prototype.find = function(id) {
 Array.prototype.clean = function() {
   return this.filter(function(a) { 
     return a;
-  }
+  });
 }
