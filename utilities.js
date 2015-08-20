@@ -28,3 +28,10 @@ Array.prototype.find = function(id) {
     }
   }).first();
 }
+
+// Removes null and empty string elements
+Array.prototype.clean = function() {
+  return this.filter(function(a) { 
+    return a;
+  }
+}
